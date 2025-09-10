@@ -1,2 +1,2 @@
 # ewilson0715.github.io
-Lennox Wilson's Coding Playground
+Lennox Wilson's
