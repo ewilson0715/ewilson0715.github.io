@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--
+    This meta tag redirects the user to your main web server after 0 seconds.
+    Update the content URL to your server's IP address or domain name.
+    -->
+    <meta http-equiv="refresh" content="0; url=http://YOUR_SERVER_IP_OR_DOMAIN_HERE:3000">
+    <title>Redirecting...</title>
+    <style>
+        body { 
+            font-family: sans-serif; 
+            text-align: center; 
+            padding-top: 50px;
+            background-color: #f3f4f6;
+        }
+        .container {
+            max-width: 500px;
+            margin: 0 auto;
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #3498db;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 20px auto;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Redirecting...</h1>
+        <div class="spinner"></div>
+        <p>You are being redirected to the main server...</p>
+        <p>If you are not redirected automatically, <a href="http://YOUR_SERVER_IP_OR_DOMAIN_HERE:3000">click here</a>.</p>
+        
+        <hr style="margin: 2rem 0;">
+        <small style="color: #666;">
+            <strong>Instructions:</strong> Replace "YOUR_SERVER_IP_OR_DOMAIN_HERE" with your actual server IP address or domain name in both the meta tag and the link above.
+        </small>
+    </div>
+</body>
+</html>

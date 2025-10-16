@@ -1,0 +1,21 @@
+{
+  "name": "node-echo-server",
+  "version": "1.0.0",
+  "description": "A Node.js Express server with Echo service and home page",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": [
+    "express",
+    "node",
+    "echo",
+    "server"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
